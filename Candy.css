@@ -1,0 +1,40 @@
+body{
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#mainNavbar .navbar-brand{
+    color: brown;
+}
+h2{
+    color: crimson;
+    font-weight: 100;
+    font-size: 2rem;
+}
+p{
+    color:indianred;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#maniNavbar .nav-Link{
+    color: azure;
+}
+#mainNavbar .nav-Link:hover{
+    background-color: blueviolet;
+}
+#headingGroup span{
+    color: crimson;
+}
+#headingGroup h1{
+  font-weight: 100;
+  font-size: 3rem;  
+}
+@media(max-width:1000px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+    }
+    
+}
